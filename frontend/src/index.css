@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Cormorant Garamond', serif;
+}
+
+.primary-color{
+    background:#1D3557 ;
+}
+.accent-color{
+    background:#A92E3E ;
+}
+
+.white-glassmorphism{
+    background: rgba(255,255,255, 0.06);
+    border:1px solid rgba(255,255,255, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.animate-slide-in{
+  transition: all 2s ease-in-out;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
